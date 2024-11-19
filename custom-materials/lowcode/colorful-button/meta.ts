@@ -1,102 +1,101 @@
-
 import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
 const ColorfulButtonMeta: IPublicTypeComponentMetadata = {
-  "componentName": "ColorfulButton",
-  "title": "ColorfulButton",
-  "docUrl": "",
-  "screenshot": "",
-  "devMode": "proCode",
-  "npm": {
-    "package": "custom-materials",
-    "version": "0.1.0",
-    "exportName": "ColorfulButton",
-    "main": "src/index.tsx",
-    "destructuring": true,
-    "subName": ""
+  componentName: 'ColorfulButton',
+  title: 'ColorfulButton',
+  docUrl: '',
+  screenshot: '',
+  devMode: 'proCode',
+  npm: {
+    package: 'custom-materials',
+    version: '0.1.0',
+    exportName: 'ColorfulButton',
+    main: 'src/index.tsx',
+    destructuring: true,
+    subName: '',
   },
-  "configure": {
-    "props": [
+  configure: {
+    props: [
       {
-        "title": {
-          "label": {
-            "type": "i18n",
-            "en-US": "type",
-            "zh-CN": "类型"
+        title: {
+          label: {
+            type: 'i18n',
+            'en-US': 'type',
+            'zh-CN': '类型',
           },
-          "tip": "type | 类型"
+          tip: 'type | 类型',
         },
-        "name": "type",
-        "description": "类型",
-        "setter": {
-          "componentName": "RadioGroupSetter",
-          "props": {
-            "dataSource": [
+        name: 'type',
+        description: '类型',
+        setter: {
+          componentName: 'RadioGroupSetter',
+          props: {
+            dataSource: [
               {
-                "label": "primary",
-                "value": "primary"
+                label: 'primary',
+                value: 'primary',
               },
               {
-                "label": "secondary",
-                "value": "secondary"
+                label: 'secondary',
+                value: 'secondary',
               },
               {
-                "label": "normal",
-                "value": "normal"
-              }
+                label: 'normal',
+                value: 'normal',
+              },
             ],
-            "options": [
+            options: [
               {
-                "label": "primary",
-                "value": "primary"
+                label: 'primary',
+                value: 'primary',
               },
               {
-                "label": "secondary",
-                "value": "secondary"
+                label: 'secondary',
+                value: 'secondary',
               },
               {
-                "label": "normal",
-                "value": "normal"
-              }
-            ]
+                label: 'normal',
+                value: 'normal',
+              },
+            ],
           },
-          "initialValue": "primary"
-        }
+          initialValue: 'primary',
+        },
       },
       {
-        "title": {
-          "label": {
-            "type": "i18n",
-            "en-US": "color",
-            "zh-CN": "color"
-          }
+        title: {
+          label: {
+            type: 'i18n',
+            'en-US': 'color',
+            'zh-CN': 'color',
+          },
         },
-        "name": "color",
-        "setter": {
-          "componentName": "StringSetter",
-          "isRequired": false,
-          "initialValue": ""
-        }
-      }
+        name: 'color',
+        setter: {
+          componentName: 'StringSetter',
+          isRequired: false,
+          initialValue: '',
+        },
+      },
     ],
-    "supports": {
-      "style": true
+    supports: {
+      style: true,
     },
-    "component": {}
-  }
+    component: {},
+  },
 };
 const snippets: IPublicTypeSnippet[] = [
   {
-    "title": "ColorfulButton",
-    "screenshot": "",
-    "schema": {
-      "componentName": "ColorfulButton",
-      "props": {}
-    }
-  }
+    title: 'ColorfulButton',
+    screenshot: '',
+    schema: {
+      componentName: 'ColorfulButton',
+      props: {},
+    },
+  },
 ];
 
 export default {
   ...ColorfulButtonMeta,
-  snippets
+  snippets,
 };
