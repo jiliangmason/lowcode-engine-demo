@@ -10,7 +10,7 @@ export { default as Container } from './components/container';
 export type { PanelProps } from './components/panel';
 export { default as Panel } from './components/panel';
 
-export { default as LineChart } from './components/line-chart';
+//export { default as LineChart } from './components/line-chart';
 export { default as Table } from './components/table';
 
 const bizCssPrefix = 'bizpack';

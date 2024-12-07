@@ -1,7 +1,7 @@
 {
-  "name": "custom-materials",
+  "name": "custom-materials-jiliangmason",
   "version": "0.1.0",
-  "description": "custom-materials",
+  "description": "custom-materials-jiliangmason",
   "main": "lib/index.js",
   "module": "es/index.js",
   "exports": {
@@ -60,7 +60,7 @@
     "**/*.{css,scss,less,acss}": "f2elint exec stylelint"
   },
   "peerDependencies": {
-    "moment": "latest",
+    "moment": "^2.29.1",
     "react": "^17.x",
     "react-dom": "^17.x"
   },
@@ -80,11 +80,13 @@
   },
   "dependencies": {
     "@alifd/next": "^1.25.27",
+    "@alilc/build-plugin-alt": "^1.3.4",
     "@alilc/lowcode-types": "^1.3.2",
     "@babel/runtime": "^7.0.0",
-    "antd": "^5.21.6",
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.24.7",
     "bizcharts": "^4.1.23",
-    "moment": "latest",
+    "moment": "^2.29.1",
     "prop-types": "^15.5.8",
     "react": "^17.x",
     "react-dom": "^17.x"
@@ -97,9 +99,10 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/custom-materials@0.1.0/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/custom-materials-jiliangmason@0.1.0/build/lowcode/assets-prod.json"
   },
   "lcMeta": {
     "type": "component"
-  }
+  },
+  "homepage": "https://unpkg.com/custom-materials-jiliangmason@0.1.0/build/index.html"
 }

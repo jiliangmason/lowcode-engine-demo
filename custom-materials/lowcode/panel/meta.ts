@@ -8,7 +8,7 @@ const PanelMeta: IPublicTypeComponentMetadata = {
   devMode: 'proCode',
   category: '数据展示',
   npm: {
-    package: 'custom-materials',
+    package: 'custom-materials-jiliangmason',
     version: '0.1.0',
     exportName: 'Panel',
     main: 'src/index.tsx',

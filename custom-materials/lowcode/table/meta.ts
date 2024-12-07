@@ -9,7 +9,7 @@ export default {
   screenshot: '',
   devMode: 'proCode',
   npm: {
-    package: 'custom-materials',
+    package: 'custom-materials-jiliangmason',
     version: '0.1.0',
     exportName: 'Table',
     main: 'src/index.tsx',

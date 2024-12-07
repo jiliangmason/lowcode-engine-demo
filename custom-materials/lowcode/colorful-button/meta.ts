@@ -7,7 +7,7 @@ const ColorfulButtonMeta: IPublicTypeComponentMetadata = {
   screenshot: '',
   devMode: 'proCode',
   npm: {
-    package: 'custom-materials',
+    package: 'custom-materials-jiliangmason',
     version: '0.1.0',
     exportName: 'ColorfulButton',
     main: 'src/index.tsx',
