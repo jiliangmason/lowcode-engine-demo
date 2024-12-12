@@ -9,7 +9,7 @@ const PanelMeta: IPublicTypeComponentMetadata = {
   category: '数据展示',
   npm: {
     package: 'custom-materials-jiliangmason',
-    version: '0.1.0',
+    version: '0.1.3',
     exportName: 'Panel',
     main: 'src/index.tsx',
     destructuring: true,

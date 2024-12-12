@@ -1,5 +1,5 @@
 import React, { createElement } from 'react'
-import { Card } from 'antd'
+import { Card } from '@alifd/next'
 import './index.scss'
 
 export interface ContainerProps {

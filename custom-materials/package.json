@@ -1,6 +1,6 @@
 {
   "name": "custom-materials-jiliangmason",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "custom-materials-jiliangmason",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -99,10 +99,10 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/custom-materials-jiliangmason@0.1.0/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/custom-materials-jiliangmason@0.1.3/build/lowcode/assets-prod.json"
   },
   "lcMeta": {
     "type": "component"
   },
-  "homepage": "https://unpkg.com/custom-materials-jiliangmason@0.1.0/build/index.html"
+  "homepage": "https://unpkg.com/custom-materials-jiliangmason@0.1.3/build/index.html"
 }

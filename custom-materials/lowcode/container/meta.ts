@@ -8,7 +8,7 @@ const ContainerMeta: IPublicTypeComponentMetadata = {
   devMode: 'proCode',
   npm: {
     package: 'custom-materials-jiliangmason',
-    version: '0.1.0',
+    version: '0.1.3',
     exportName: 'Container',
     main: 'src/index.tsx',
     destructuring: true,

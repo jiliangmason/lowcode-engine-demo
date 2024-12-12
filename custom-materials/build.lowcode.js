@@ -21,26 +21,26 @@ module.exports = {
         noParse: true,
         library,
         engineScope: "@alilc",
-        lowcodeDir: 'lowcode',
-        entryPath: 'src/index.tsx',
-        staticResources: {
-          engineCoreCssUrl:
-            'https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.2.1/dist/css/engine-core.css',
-          engineExtCssUrl:
-            'https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.6/dist/css/engine-ext.css',
-          engineCoreJsUrl:
-            'https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.2.1/dist/js/engine-core.js',
-          engineExtJsUrl:
-            'https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.6/dist/js/engine-ext.js',
-        },
-        npmInfo: {
-          package: name,
-          version,
-        },
-        baseUrl: {
-          prod: `https://alifd.alicdn.com/npm/${name}@${version}`,
-          daily: `https://alifd.alicdn.com/npm/${name}@${version}`,
-        },
+        // lowcodeDir: 'lowcode',
+        // entryPath: 'src/index.tsx',
+        // staticResources: {
+        //   engineCoreCssUrl:
+        //     'https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.2.1/dist/css/engine-core.css',
+        //   engineExtCssUrl:
+        //     'https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.6/dist/css/engine-ext.css',
+        //   engineCoreJsUrl:
+        //     'https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.2.1/dist/js/engine-core.js',
+        //   engineExtJsUrl:
+        //     'https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.6/dist/js/engine-ext.js',
+        // },
+        // npmInfo: {
+        //   package: name,
+        //   version,
+        // },
+        // baseUrl: {
+        //   prod: `https://alifd.alicdn.com/npm/${name}@${version}`,
+        //   daily: `https://alifd.alicdn.com/npm/${name}@${version}`,
+        // },
         builtinAssets: [
           {
             packages: [
@@ -74,6 +74,12 @@ module.exports = {
                 ],
                 library: 'antd',
               },
+              {
+                "package": "bizcharts",
+                "version": "4.1.11",
+                "urls": ["https://g.alicdn.com/code/lib/bizcharts/4.1.11/BizCharts.min.js"],
+                "library": "BizCharts"
+              }
             ],
             components: [],
           },
