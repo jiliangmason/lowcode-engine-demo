@@ -10,7 +10,7 @@ const lowcodePlugin = (ctx: IPublicModelPluginContext) => {
         components: [{
           devMode: 'lowCode',
           componentName: 'LowcodeDemo',
-          title: '低代码组件示例',
+          title: '低代码组件示例test',
           group: '低代码组件',
           schema: lowcodeSchema as any,
           snippets: [{
